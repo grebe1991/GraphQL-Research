@@ -149,7 +149,7 @@ extra complexity, so a simple REST API can be better.
 ## How to use the project
 
 1. ```composer install```
-2. ```php artisan migrate --seed```
+2. ```php artisan migrate --seed``` (it's gonna take a while)
 3. ```php artisan serve```
 4. navigate ro ```graphiql``` route
 5. try 
