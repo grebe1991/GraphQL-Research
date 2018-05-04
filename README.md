@@ -146,3 +146,20 @@ extra complexity, so a simple REST API can be better.
 
 [Read more here](https://www.quora.com/What-are-advantages-and-disadvantages-of-GraphQL-SOAP-and-REST)
 
+## How to use the project
+
+1. ```composer install```
+2. ```php artisan migrate --seed```
+3. ```php artisan serve```
+4. navigate ro ```graphiql``` route
+5. try 
+
+```
+{
+  user(id : "1") {
+    id
+    name
+    email
+   }
+}
+```
